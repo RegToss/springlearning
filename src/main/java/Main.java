@@ -25,6 +25,5 @@ public class Main {
                 new ThreadPoolExecutor.AbortPolicy());
         executorService.execute(producer);
         executorService.execute(consumer);
-        executorService.shutdown();
     }
 }
