@@ -25,6 +25,6 @@ public class Main {
                 new ThreadPoolExecutor.AbortPolicy());
         executorService.execute(producer);
         executorService.execute(consumer);
-        System.out.println("分支代码");
+        System.out.println("分支代码1");
     }
 }
